@@ -15,3 +15,7 @@ class Ship {
         return `Ships hit ${this.hitCount} out of ${this.length}`;
     }
 }
+
+const GameBoard = () => {
+    // create function to make board
+};
