@@ -1,7 +1,6 @@
 class Ship {
     constructor(length = 1) {
         this.length = length;
-        this.isSunk = false;
         this.hitCount = 0;
     }
 
@@ -13,6 +12,12 @@ class Ship {
         if (this.hitCount >= this.length) this.isSunk = true;
 
         return `Ships hit ${this.hitCount} out of ${this.length}`;
+    }
+
+    isSunk() {
+        if (this.hitCount === this.length) return true;
+
+        return false;
     }
 }
 
