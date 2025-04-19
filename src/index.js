@@ -21,6 +21,10 @@ class Ship {
     }
 }
 
+class Player {
+    constructor() {}
+}
+
 const GameBoard = () => {
     // create function to make board
 };
