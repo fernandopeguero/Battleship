@@ -27,4 +27,7 @@ class Player {
 
 const GameBoard = () => {
     // create function to make board
+
+    // takes 2 parameter as a pair of coordinates and determines if the ship was hit
+    function receiveAttack() {}
 };
